@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    url: jdbc:oracle:thin:@localhost:1521:O19C01
+    username: SCPOMGR
+    password: SCPOMGR
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  application:
+    name: CITIZEN-SERVICE
+
+server:
+  port: 8081
